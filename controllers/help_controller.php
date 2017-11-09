@@ -3,6 +3,7 @@
 
 		public function __construct(){
 			echo " HELP ";
+			parent::__construct();
 			$this->view->render("help");
 		}
 
