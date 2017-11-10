@@ -19,6 +19,13 @@ class Login extends controller
 
   }
 
+  public function logout($value='')
+  {
+    login_model::logout();
+    header("location: ".URL."/home/");
+
+  }
+
 }
 
 

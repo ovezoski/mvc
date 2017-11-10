@@ -1,4 +1,5 @@
 <?php
+define("URL", "/moe/index");
 
 require "libs/database.php";
 require "libs/bootstrap.php";
